@@ -38,7 +38,7 @@ using SteamKit2.Discovery;
 namespace ArchiSteamFarm {
 	public static class ASF {
 		// This is based on internal Valve guidelines, we're not using it as a hard limit
-		private const byte MaximumRecommendedBotsCount = 100;
+		private const byte MaximumRecommendedBotsCount = 300;
 
 		[PublicAPI]
 		public static readonly ArchiLogger ArchiLogger = new ArchiLogger(SharedInfo.ASF);
